@@ -1,5 +1,5 @@
 Sites/zed-themes/README.md#L1-260
-# zed-themes
+# cyberpunk-zed-themes
 
 A git-backed collection of Zed editor themes with an automated installer, updater, and optional quarterly auto-update for macOS (launchd). I created tooling so you — or any Zed user — can install, update, and maintain the theme set safely and reproducibly.
 

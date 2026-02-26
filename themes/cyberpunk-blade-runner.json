@@ -1,0 +1,108 @@
+{
+  "name": "Cyberpunk Blade Runner",
+  "author": "Cyberpunk Collection",
+  "themes": [
+    {
+      "name": "Cyberpunk Blade Runner",
+      "appearance": "dark",
+      "style": {
+        "background": "#1a1a2e",
+        "foreground": "#e94560",
+        "text": "#e94560",
+        "text.accent": "#f39c12",
+        "text.muted": "#666666",
+        "editor.background": "#1a1a2e",
+        "editor.foreground": "#e94560",
+        "editor.active_line.background": "#ffffff0a",
+        "editor.line_number": "#444444",
+        "editor.active_line_number": "#f39c12",
+        "editor.gutter.background": "#1a1a2e",
+        "surface.background": "#ffffff08",
+        "element.background": "#ffffff10",
+        "element.hover": "#ffffff18",
+        "border": "#333333",
+        "border.focused": "#f39c12",
+        "tab_bar.background": "#1a1a2e",
+        "tab.active_background": "#ffffff08",
+        "tab.inactive_background": "#1a1a2e",
+        "panel.background": "#ffffff05",
+        "title_bar.background": "#1a1a2e",
+        "status_bar.background": "#1a1a2e",
+        "terminal.background": "#1a1a2e",
+        "terminal.foreground": "#e94560",
+        "terminal.ansi.black": "#1a1a2e",
+        "terminal.ansi.red": "#ff5555",
+        "terminal.ansi.green": "#f39c12",
+        "terminal.ansi.yellow": "#ffff55",
+        "terminal.ansi.blue": "#5555ff",
+        "terminal.ansi.magenta": "#e94560",
+        "terminal.ansi.cyan": "#f39c12",
+        "terminal.ansi.white": "#e94560",
+        "syntax": {
+          "keyword": {
+            "color": "#f39c12",
+            "font_weight": 600
+          },
+          "string": {
+            "color": "#88cc88"
+          },
+          "comment": {
+            "color": "#666666",
+            "font_style": "italic"
+          },
+          "function": {
+            "color": "#e94560",
+            "font_weight": 500
+          },
+          "type": {
+            "color": "#f39c12"
+          },
+          "number": {
+            "color": "#f39c12"
+          },
+          "boolean": {
+            "color": "#f39c12"
+          },
+          "operator": {
+            "color": "#e94560"
+          },
+          "variable": {
+            "color": "#e94560"
+          },
+          "property": {
+            "color": "#e94560"
+          },
+          "constant": {
+            "color": "#f39c12",
+            "font_weight": 600
+          },
+          "punctuation": {
+            "color": "#999999"
+          },
+          "tag": {
+            "color": "#f39c12"
+          },
+          "attribute": {
+            "color": "#e94560"
+          },
+          "constructor": {
+            "color": "#f39c12"
+          },
+          "embedded": {
+            "color": "#e94560"
+          },
+          "emphasis": {
+            "font_style": "italic"
+          },
+          "strong": {
+            "font_weight": 700
+          },
+          "link": {
+            "color": "#f39c12",
+            "underline": true
+          }
+        }
+      }
+    }
+  ]
+}

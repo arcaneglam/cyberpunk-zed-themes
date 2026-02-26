@@ -1,0 +1,108 @@
+{
+  "name": "Cyberpunk Akira",
+  "author": "Cyberpunk Collection",
+  "themes": [
+    {
+      "name": "Cyberpunk Akira",
+      "appearance": "dark",
+      "style": {
+        "background": "#330000",
+        "foreground": "#ff3333",
+        "text": "#ff3333",
+        "text.accent": "#ffaa00",
+        "text.muted": "#666666",
+        "editor.background": "#330000",
+        "editor.foreground": "#ff3333",
+        "editor.active_line.background": "#ffffff0a",
+        "editor.line_number": "#444444",
+        "editor.active_line_number": "#ffaa00",
+        "editor.gutter.background": "#330000",
+        "surface.background": "#ffffff08",
+        "element.background": "#ffffff10",
+        "element.hover": "#ffffff18",
+        "border": "#333333",
+        "border.focused": "#ffaa00",
+        "tab_bar.background": "#330000",
+        "tab.active_background": "#ffffff08",
+        "tab.inactive_background": "#330000",
+        "panel.background": "#ffffff05",
+        "title_bar.background": "#330000",
+        "status_bar.background": "#330000",
+        "terminal.background": "#330000",
+        "terminal.foreground": "#ff3333",
+        "terminal.ansi.black": "#330000",
+        "terminal.ansi.red": "#ff5555",
+        "terminal.ansi.green": "#ffaa00",
+        "terminal.ansi.yellow": "#ffff55",
+        "terminal.ansi.blue": "#5555ff",
+        "terminal.ansi.magenta": "#ff3333",
+        "terminal.ansi.cyan": "#ffaa00",
+        "terminal.ansi.white": "#ff3333",
+        "syntax": {
+          "keyword": {
+            "color": "#ffaa00",
+            "font_weight": 600
+          },
+          "string": {
+            "color": "#88cc88"
+          },
+          "comment": {
+            "color": "#666666",
+            "font_style": "italic"
+          },
+          "function": {
+            "color": "#ff3333",
+            "font_weight": 500
+          },
+          "type": {
+            "color": "#ffaa00"
+          },
+          "number": {
+            "color": "#ffaa00"
+          },
+          "boolean": {
+            "color": "#ffaa00"
+          },
+          "operator": {
+            "color": "#ff3333"
+          },
+          "variable": {
+            "color": "#ff3333"
+          },
+          "property": {
+            "color": "#ff3333"
+          },
+          "constant": {
+            "color": "#ffaa00",
+            "font_weight": 600
+          },
+          "punctuation": {
+            "color": "#999999"
+          },
+          "tag": {
+            "color": "#ffaa00"
+          },
+          "attribute": {
+            "color": "#ff3333"
+          },
+          "constructor": {
+            "color": "#ffaa00"
+          },
+          "embedded": {
+            "color": "#ff3333"
+          },
+          "emphasis": {
+            "font_style": "italic"
+          },
+          "strong": {
+            "font_weight": 700
+          },
+          "link": {
+            "color": "#ffaa00",
+            "underline": true
+          }
+        }
+      }
+    }
+  ]
+}

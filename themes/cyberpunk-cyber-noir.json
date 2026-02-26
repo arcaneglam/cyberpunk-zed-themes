@@ -1,0 +1,108 @@
+{
+  "name": "Cyberpunk Cyber Noir",
+  "author": "Cyberpunk Collection",
+  "themes": [
+    {
+      "name": "Cyberpunk Cyber Noir",
+      "appearance": "dark",
+      "style": {
+        "background": "#0d0d0d",
+        "foreground": "#ffffff",
+        "text": "#ffffff",
+        "text.accent": "#ff6b6b",
+        "text.muted": "#666666",
+        "editor.background": "#0d0d0d",
+        "editor.foreground": "#ffffff",
+        "editor.active_line.background": "#ffffff0a",
+        "editor.line_number": "#444444",
+        "editor.active_line_number": "#ff6b6b",
+        "editor.gutter.background": "#0d0d0d",
+        "surface.background": "#ffffff08",
+        "element.background": "#ffffff10",
+        "element.hover": "#ffffff18",
+        "border": "#333333",
+        "border.focused": "#ff6b6b",
+        "tab_bar.background": "#0d0d0d",
+        "tab.active_background": "#ffffff08",
+        "tab.inactive_background": "#0d0d0d",
+        "panel.background": "#ffffff05",
+        "title_bar.background": "#0d0d0d",
+        "status_bar.background": "#0d0d0d",
+        "terminal.background": "#0d0d0d",
+        "terminal.foreground": "#ffffff",
+        "terminal.ansi.black": "#0d0d0d",
+        "terminal.ansi.red": "#ff5555",
+        "terminal.ansi.green": "#ff6b6b",
+        "terminal.ansi.yellow": "#ffff55",
+        "terminal.ansi.blue": "#5555ff",
+        "terminal.ansi.magenta": "#ffffff",
+        "terminal.ansi.cyan": "#ff6b6b",
+        "terminal.ansi.white": "#ffffff",
+        "syntax": {
+          "keyword": {
+            "color": "#ff6b6b",
+            "font_weight": 600
+          },
+          "string": {
+            "color": "#88cc88"
+          },
+          "comment": {
+            "color": "#666666",
+            "font_style": "italic"
+          },
+          "function": {
+            "color": "#ffffff",
+            "font_weight": 500
+          },
+          "type": {
+            "color": "#ff6b6b"
+          },
+          "number": {
+            "color": "#ff6b6b"
+          },
+          "boolean": {
+            "color": "#ff6b6b"
+          },
+          "operator": {
+            "color": "#ffffff"
+          },
+          "variable": {
+            "color": "#ffffff"
+          },
+          "property": {
+            "color": "#ffffff"
+          },
+          "constant": {
+            "color": "#ff6b6b",
+            "font_weight": 600
+          },
+          "punctuation": {
+            "color": "#999999"
+          },
+          "tag": {
+            "color": "#ff6b6b"
+          },
+          "attribute": {
+            "color": "#ffffff"
+          },
+          "constructor": {
+            "color": "#ff6b6b"
+          },
+          "embedded": {
+            "color": "#ffffff"
+          },
+          "emphasis": {
+            "font_style": "italic"
+          },
+          "strong": {
+            "font_weight": 700
+          },
+          "link": {
+            "color": "#ff6b6b",
+            "underline": true
+          }
+        }
+      }
+    }
+  ]
+}

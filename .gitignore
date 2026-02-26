@@ -1,0 +1,56 @@
+# zed-themes .gitignore
+# Purpose: ignore local artifacts, backups, logs, and editor/OS files that should not be committed.
+
+# Installer backups and logs
+*.backup.*
+logs/
+
+# OS / system files
+.DS_Store
+Thumbs.db
+Icon?
+
+# Editor/project files
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+ENV/
+
+# Node (if contributors use node for tooling)
+node_modules/
+
+# Archives / build artifacts
+*.zip
+*.tar.gz
+*.tgz
+
+# Local environment / secrets
+.env
+.env.local
+.env.*.local
+secrets.*.json
+
+# macOS launchd local copy (do not track user-specific installed plist)
+# Users should copy the provided plist into ~/Library/LaunchAgents themselves.
+# The following pattern is intentionally commented/informational only.
+# ~/Library/LaunchAgents/com.zed.themes.autoupdate.plist
+
+# Misc
+*.log
+
+# Ignore any generated release package by CI locally
+zed-themes-*.zip
+
+# End of .gitignore

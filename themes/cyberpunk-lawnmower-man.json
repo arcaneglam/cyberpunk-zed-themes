@@ -1,0 +1,108 @@
+{
+  "name": "Cyberpunk Lawnmower Man",
+  "author": "Cyberpunk Collection",
+  "themes": [
+    {
+      "name": "Cyberpunk Lawnmower Man",
+      "appearance": "dark",
+      "style": {
+        "background": "#004400",
+        "foreground": "#00ff00",
+        "text": "#00ff00",
+        "text.accent": "#88ff88",
+        "text.muted": "#666666",
+        "editor.background": "#004400",
+        "editor.foreground": "#00ff00",
+        "editor.active_line.background": "#ffffff0a",
+        "editor.line_number": "#444444",
+        "editor.active_line_number": "#88ff88",
+        "editor.gutter.background": "#004400",
+        "surface.background": "#ffffff08",
+        "element.background": "#ffffff10",
+        "element.hover": "#ffffff18",
+        "border": "#333333",
+        "border.focused": "#88ff88",
+        "tab_bar.background": "#004400",
+        "tab.active_background": "#ffffff08",
+        "tab.inactive_background": "#004400",
+        "panel.background": "#ffffff05",
+        "title_bar.background": "#004400",
+        "status_bar.background": "#004400",
+        "terminal.background": "#004400",
+        "terminal.foreground": "#00ff00",
+        "terminal.ansi.black": "#004400",
+        "terminal.ansi.red": "#ff5555",
+        "terminal.ansi.green": "#88ff88",
+        "terminal.ansi.yellow": "#ffff55",
+        "terminal.ansi.blue": "#5555ff",
+        "terminal.ansi.magenta": "#00ff00",
+        "terminal.ansi.cyan": "#88ff88",
+        "terminal.ansi.white": "#00ff00",
+        "syntax": {
+          "keyword": {
+            "color": "#88ff88",
+            "font_weight": 600
+          },
+          "string": {
+            "color": "#88cc88"
+          },
+          "comment": {
+            "color": "#666666",
+            "font_style": "italic"
+          },
+          "function": {
+            "color": "#00ff00",
+            "font_weight": 500
+          },
+          "type": {
+            "color": "#88ff88"
+          },
+          "number": {
+            "color": "#88ff88"
+          },
+          "boolean": {
+            "color": "#88ff88"
+          },
+          "operator": {
+            "color": "#00ff00"
+          },
+          "variable": {
+            "color": "#00ff00"
+          },
+          "property": {
+            "color": "#00ff00"
+          },
+          "constant": {
+            "color": "#88ff88",
+            "font_weight": 600
+          },
+          "punctuation": {
+            "color": "#999999"
+          },
+          "tag": {
+            "color": "#88ff88"
+          },
+          "attribute": {
+            "color": "#00ff00"
+          },
+          "constructor": {
+            "color": "#88ff88"
+          },
+          "embedded": {
+            "color": "#00ff00"
+          },
+          "emphasis": {
+            "font_style": "italic"
+          },
+          "strong": {
+            "font_weight": 700
+          },
+          "link": {
+            "color": "#88ff88",
+            "underline": true
+          }
+        }
+      }
+    }
+  ]
+}

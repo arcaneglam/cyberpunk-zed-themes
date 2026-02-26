@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  com.zed.themes.autoupdate.plist
+  User LaunchAgent to run the repo's update script on a quarterly interval (~90 days).
+
+  Notes:
+  - Installed path (example): /Users/sexybitch/Sites/zed-themes/com.zed.themes.autoupdate.plist
+  - ProgramArguments points to the update script in the repository.
+  - StartInterval is set to 7,776,000 seconds (90 days).
+  - StandardOutPath / StandardErrorPath write to the repo's logs/ directory.
+-->
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.zed.themes.autoupdate</string>
+
+    <!-- Run the repository update script directly (absolute path) -->
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/bin/env</string>
+      <string>bash</string>
+      <string>-lc</string>
+      <string>/Users/sexybitch/Sites/zed-themes/update.sh</string>
+    </array>
+
+    <!-- Run the job at load and then on the interval -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Start every ~90 days (90 * 24 * 60 * 60 = 7,776,000) -->
+    <key>StartInterval</key>
+    <integer>7776000</integer>
+
+    <!-- Set a working directory so the script has a predictable cwd -->
+    <key>WorkingDirectory</key>
+    <string>/Users/sexybitch/Sites/zed-themes</string>
+
+    <!-- Ensure commonly needed PATH so env->bash finds git, etc. -->
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>PATH</key>
+      <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+      <key>HOME</key>
+      <string>/Users/sexybitch</string>
+    </dict>
+
+    <!-- Log output -->
+    <key>StandardOutPath</key>
+    <string>/Users/sexybitch/Sites/zed-themes/logs/autoupdate.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/sexybitch/Sites/zed-themes/logs/autoupdate.err.log</string>
+
+    <!-- Keep the service from automatically restarting too aggressively -->
+    <key>ThrottleInterval</key>
+    <integer>300</integer>
+  </dict>
+</plist>
